@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  margin: 10px 0;
+}
+nav button {
+  margin: 5px;
+}
+nav img {
+  height: 40px;
+  cursor: pointer;
+}
