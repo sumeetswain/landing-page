@@ -1,4 +1,18 @@
-p {
-  font-size: x-large;
+h1 {
+  font-size: 6.2em !important;
   font-weight: bolder;
+  margin-top: 40px;
+  line-height: 0.9;
+  width: 600px;
+}
+section {
+  width: 50%;
+}
+p {
+  font-weight: bold;
+  width: 400px;
+}
+
+button {
+  margin: 0px 20px;
 }

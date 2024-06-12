@@ -1,8 +1,12 @@
 import "./Navbar.css";
 import Button from "@mui/material/Button";
-// import { Link } from "react-router-dom";
+import { styled } from "@mui/system";
 import Nike from "./assets/Nike.png"; // ! first import the image file
 export default function Navbar() {
+  const BlackButton = styled(Button)`
+    background-color: white;
+    color: black;
+  `;
   return (
     <nav>
       <a href="https://www.nike.com" target="_blank">
@@ -10,18 +14,10 @@ export default function Navbar() {
       </a>
       {/*use the imported file as the src*/}
       <div>
-        <Button variant="text" color="error">
-          Menu
-        </Button>
-        <Button variant="text" color="error">
-          Location
-        </Button>
-        <Button variant="text" color="error">
-          About
-        </Button>
-        <Button variant="text" color="error">
-          Contact
-        </Button>
+        <BlackButton variant="text">Menu</BlackButton>
+        <BlackButton variant="text">Location</BlackButton>
+        <BlackButton variant="text">About</BlackButton>
+        <BlackButton variant="text">Contact</BlackButton>
       </div>
       <div>
         <Button variant="contained" color="error">
