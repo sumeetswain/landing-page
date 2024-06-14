@@ -1,8 +1,10 @@
+import Hero from "./assets/hero-image.png";
+import "./RightSection.css";
 export default function RightSection() {
   return (
     <>
       <section>
-        <p>Right</p>
+        <img id="hero" src={Hero} alt="" />
       </section>
     </>
   );

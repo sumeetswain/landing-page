@@ -1,8 +1,8 @@
 h1 {
   font-size: 6.2em !important;
   font-weight: bolder;
-  margin-top: 40px;
-  line-height: 0.9;
+  margin-bottom: 40px;
+  line-height: 1 !important;
   width: 600px;
 }
 section {
@@ -11,8 +11,17 @@ section {
 p {
   font-weight: bold;
   width: 400px;
+  color: gray;
 }
 
 button {
   margin: 0px 20px;
+}
+span {
+  display: block;
+  margin-top: 20px;
+}
+img {
+  height: 40px;
+  margin: 10px;
 }

@@ -1,5 +1,7 @@
 import "./LeftSection.css";
 import Button from "@mui/material/Button";
+import Amazon from "./assets/amazon.png";
+import Flipkart from "./assets/flipkart-icon.png";
 
 export default function LeftSection() {
   return (
@@ -17,7 +19,9 @@ export default function LeftSection() {
         <Button sx={{ margin: "0px 20px" }} variant="outlined">
           Category
         </Button>
-        <p>Also Available On </p>
+        <span>Also Available On </span>
+        <img src={Flipkart} alt="" />
+        <img src={Amazon} alt="" />
       </section>
     </>
   );
